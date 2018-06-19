@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Porfolio API using node express and mongodb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminbarbe10/api_porfolio.git"
+  },
+  "author": "Benjamin Barbé",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminbarbe10/api_porfolio/issues"
+  },
+  "homepage": "https://github.com/benjaminbarbe10/api_porfolio#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.1.6"
+  }
+}
