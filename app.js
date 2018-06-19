@@ -13,8 +13,9 @@ mongoose.Promise = global.Promise;
 //
 // ─── ROUTES ─────────────────────────────────────────────────────────────────────
 //
-
+const skills = require("./routes/skill");
 app.use(bodyParser.json());
+app.use("/skills", skills);
 
 //
 // ─── SERVER ─────────────────────────────────────────────────────────────────────
