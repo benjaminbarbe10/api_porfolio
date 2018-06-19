@@ -14,8 +14,11 @@ mongoose.Promise = global.Promise;
 // ─── ROUTES ─────────────────────────────────────────────────────────────────────
 //
 const skills = require("./routes/skill");
+const educations = require("./routes/education");
+
 app.use(bodyParser.json());
 app.use("/skills", skills);
+app.use("/educations", educations);
 
 //
 // ─── SERVER ─────────────────────────────────────────────────────────────────────
